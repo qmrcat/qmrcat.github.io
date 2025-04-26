@@ -2,6 +2,16 @@
 
 Aquest son el meus projectes:
 
+## Veu en Moviment
+
+Veu en Moviment és una aplicació web que permet traduir veu en temps real entre múltiples idiomes. L'aplicació utilitza les APIs d'OpenAI (Whisper, GPT i TTS) per transcriure, traduir i generar àudio de manera eficient i precisa, et pot servir per a quan et diguin "hablame en cristiano", "Estamos en Es....", "como" o "un cafe con gel"
+
+L'aplicació funciona completament al navegador, sense necessitat d'instal·lar-la, i totes les dades es processen localment a excepció de les interaccions amb l'API d'OpenAI.
+
+L'ús de l'aplicació és de franc, l'ús de les APIs d'OpenAI són càrrecs a OpenAI jo no en trec res ni ho vull.
+
+[ves-hi](https://github.com/qmrcat/VeuEnMoviment)
+
 ## Fes un sudoku!
 
 Si voleu jugar a resoldre sudokus, aquí teniu una web que no té publicitat, ni galetes, ni les rucades que ens volen colar sempre, i si voleu podeu agafar el codi de la web per fer el que vulgueu.
