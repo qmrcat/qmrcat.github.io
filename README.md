@@ -35,3 +35,10 @@ Estàs estressat, desestressa't rebentant les bombolles. No en deixis cap, Au! C
 Zona JS - playgroundJS és un entorn de desenvolupament JavaScript lleuger i intuïtiu, creat amb JavaScript Vanilla pur, mòduls ES6 i Tailwind CSS. Proporciona un espai de treball minimalista per escriure, executar i experimentar amb codi JavaScript directament al navegador, sense distraccions.
 
 [ves-hi](https://qmrcat.github.io/ZonaJS/)
+
+## Zona JSON
+
+Zona JSON - Una eina web autònoma i lleugera per validar, formatar i depurar fitxers JSON amb detecció precisa d'errors.
+Una aplicació web per a validar i formatar per a JSON, de forma segura al vostre navegador i en el vostre ordinador o mòbil, cap informació s'envia al servidor tot és en local, podeu verificar-ho al repositori de l'aplicació: <a href="https://github.com/qmrcat/ZonaJSON" target="_blank">https://github.com/qmrcat/ZonaJSON</a>
+
+[ves-hi](https://qmrcat.github.io/ZonaJSON/)
