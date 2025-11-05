@@ -42,3 +42,9 @@ Zona JSON - Una eina web autònoma i lleugera per validar, formatar i depurar fi
 Una aplicació web per a validar i formatar per a JSON, de forma segura al vostre navegador i en el vostre ordinador o mòbil, cap informació s'envia al servidor tot és en local, podeu verificar-ho al repositori de l'aplicació: <a href="https://github.com/qmrcat/ZonaJSON" target="_blank">https://github.com/qmrcat/ZonaJSON</a>
 
 [ves-hi](https://qmrcat.github.io/ZonaJSON/)
+
+## Xifreu en local
+
+Xifratge/desxifratge - Una aplicació web per a xifrar i desxifrar fitxers de forma segura al navegador utilitzant l'algoritme AES-256 i en local. Cap informació s'envia al servidor. Funciona completament fora de línia
+
+[ves-hi](https://qmrcat.github.io/Xifreu_en_local/)
