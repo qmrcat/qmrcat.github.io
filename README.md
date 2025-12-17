@@ -48,3 +48,9 @@ Una aplicació web per a validar i formatar per a JSON, de forma segura al vostr
 Xifratge/desxifratge - Una aplicació web per a xifrar i desxifrar fitxers de forma segura al navegador utilitzant l'algoritme AES-256 i en local. Cap informació s'envia al servidor. Funciona completament fora de línia
 
 [ves-hi](https://qmrcat.github.io/Xifreu_en_local/)
+
+## Marcador de Jocs de Taula
+
+Una aplicació web per portar el control de puntuacions de qualsevol joc de taula. Totalment funcional sense necessitat de connexió a internet, amb emmagatzematge local al dispositiu. Cap informació s'envia al servidor.
+
+[ves-hi](https://qmrcat.github.io/Zona-Partides/)
