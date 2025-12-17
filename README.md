@@ -51,6 +51,6 @@ Xifratge/desxifratge - Una aplicació web per a xifrar i desxifrar fitxers de fo
 
 ## Marcador de Jocs de Taula
 
-Una aplicació web per portar el control de puntuacions de qualsevol joc de taula. Totalment funcional sense necessitat de connexió a internet, amb emmagatzematge local al dispositiu. Cap informació s'envia al servidor.
+Una aplicació web per portar el control de puntuacions de qualsevol joc de taula. Totalment funcional sense necessitat de connexió a internet, amb emmagatzematge local al dispositiu. Cap informació s'envia al servidor podeu verificar-ho al repositori de l’aplicació: [https://github.com/qmrcat/Zona-Partides](https://github.com/qmrcat/Zona-Partides)
 
 [ves-hi](https://qmrcat.github.io/Zona-Partides/)
