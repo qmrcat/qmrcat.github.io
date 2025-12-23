@@ -17,7 +17,22 @@
       ],
       "url": "https://github.com/qmrcat/VeuEnMoviment",
       "destacat": false,
-      "iconaGran": "🗣️🌍"
+      "iconaGran": "🗣️🌍",
+      "detall": {
+        "descripcioAmpliada": "<p><strong>Veu en Moviment</strong> és una solució pensada per a aquells moments incòmodes quan algú et diu que parlis en castellà o no t'entén. L'aplicació funciona completament al navegador.</p><h3>Com funciona?</h3><p>L'aplicació utilitza tres APIs d'OpenAI de manera seqüencial:</p><ul><li><strong>Whisper</strong> - Transcriu la teva veu a text amb alta precisió</li><li><strong>GPT</strong> - Tradueix el text a l'idioma seleccionat mantenint el context i el to</li><li><strong>TTS (Text-to-Speech)</strong> - Genera àudio natural amb la traducció</li></ul><h3>Privacitat</h3><p>Totes les dades es processen localment al teu navegador. L'única informació que surt del teu dispositiu és la que s'envia a l'API d'OpenAI per fer la transcripció i traducció. Jo no emmagatzemo res ni tinc accés a les teves converses.</p><h3>Cost</h3><p>L'aplicació és completament gratuïta. Només necessites la teva pròpia clau d'API d'OpenAI. Els costos són mínims (centaus per cada traducció) i van directament a OpenAI.</p>",
+        "imatges": [
+          {
+            "url": "https://raw.githubusercontent.com/qmrcat/VeuEnMoviment/main/screenshot1.png",
+            "alt": "Interfície principal de Veu en Moviment"
+          }
+        ],
+        "caracteristiques": [
+          "Traducció en temps real",
+          "Múltiples idiomes suportats",
+          "Funciona sense instal·lació",
+          "Codi obert"
+        ]
+      }
     },
     {
       "id": "botifarra",
@@ -30,7 +45,17 @@
         { "text": "🔒 Offline", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/Zona-Botifarra/",
-      "destacat": true
+      "destacat": true,
+      "detall": {
+        "descripcioAmpliada": "<p>La <strong>Botifarra</strong> és un joc de cartes tradicional català que es juga amb la baralla espanyola de 48 cartes. Aquesta aplicació web et permet jugar contra tres bots intel·ligents.</p><h3>Característiques del joc</h3><p>Els bots segueixen les regles del reglament oficial de la Botifarra en la seva versió lliure (o occidental). Inclou:</p><ul><li>Sistema de contrar i recontrar</li><li>Puntuació automàtica</li><li>Intel·ligència artificial que pren decisions estratègiques</li></ul><h3>Offline</h3><p>Un cop carregada, l'aplicació funciona completament sense connexió a internet. Perfecte per a viatges o moments sense cobertura.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "3 bots intel·ligents",
+          "Reglament oficial",
+          "Funciona offline",
+          "Sense publicitat"
+        ]
+      }
     },
     {
       "id": "sudoku",
@@ -43,7 +68,17 @@
         { "text": "💚 Gratuït", "tipus": "free" }
       ],
       "url": "https://vibracat.github.io/sudo/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p>Un joc de <strong>Sudoku</strong> net i senzill, sense les molèsties habituals de les aplicacions modernes.</p><h3>Per què aquesta aplicació?</h3><p>Estava cansat de les aplicacions de Sudoku plenes de:</p><ul><li>Publicitat intrusiva</li><li>Galetes de rastreig</li><li>Subscripcions premium</li><li>Notificacions molestes</li></ul><p>Així que vaig crear aquesta versió minimalista que fa exactament el que ha de fer: deixar-te jugar a Sudoku tranquil·lament.</p><h3>Codi obert</h3><p>Tot el codi és obert. Pots copiar-lo, modificar-lo, millorar-lo o fer-ne el que vulguis.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Diferents nivells de dificultat",
+          "Interfície neta",
+          "Sense distraccions",
+          "Codi obert"
+        ]
+      }
     },
     {
       "id": "bombolles",
@@ -55,7 +90,16 @@
         { "text": "Relax", "tipus": "normal" }
       ],
       "url": "https://vibracat.github.io/peta/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p>Una aplicació simple però <strong>terapèutica</strong>. A vegades només necessites rebentar bombolles per desconnectar.</p><h3>Per a què serveix?</h3><p>Per a res productiu, i aquest és precisament el punt. En un món on tot ha de ser \"útil\" i \"eficient\", de vegades cal fer coses sense cap altre propòsit que passar-ho bé.</p><p>Rebenta totes les bombolles. Sona satisfactori. Repeteix.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Sons satisfactoris",
+          "Efecte relaxant",
+          "Sense complicacions"
+        ]
+      }
     },
     {
       "id": "zona-js",
@@ -68,7 +112,17 @@
         { "text": "ES6", "tipus": "normal" }
       ],
       "url": "https://qmrcat.github.io/ZonaJS/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p><strong>Zona JS</strong> és un playground de JavaScript minimalista per escriure i provar codi ràpidament.</p><h3>Tecnologies</h3><ul><li>JavaScript Vanilla pur (sense frameworks)</li><li>Mòduls ES6</li><li>Tailwind CSS per l'estil</li></ul><h3>Per a qui és?</h3><p>Per a desenvolupadors que volen provar fragments de codi ràpidament sense haver de configurar un entorn de desenvolupament complet. Ideal per:</p><ul><li>Experimentar amb noves idees</li><li>Aprendre JavaScript</li><li>Provar snippets</li><li>Fer prototips ràpids</li></ul>",
+        "imatges": [],
+        "caracteristiques": [
+          "Editor integrat",
+          "Execució immediata",
+          "Console.log visible",
+          "Sense configuració"
+        ]
+      }
     },
     {
       "id": "zona-json",
@@ -81,7 +135,17 @@
         { "text": "🔒 100% Local", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/ZonaJSON/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p><strong>Zona JSON</strong> és una eina per treballar amb fitxers JSON de forma segura i eficient.</p><h3>Funcionalitats</h3><ul><li><strong>Validació</strong> - Detecta errors de sintaxi amb precisió</li><li><strong>Formatació</strong> - Indenta i ordena el JSON automàticament</li><li><strong>Depuració</strong> - Mostra exactament on hi ha l'error</li></ul><h3>Privacitat total</h3><p>Tot el processament es fa al teu navegador. Cap dada s'envia a cap servidor. Pots verificar-ho al codi font del repositori.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Validació instantània",
+          "Formatació automàtica",
+          "Detecció d'errors precisa",
+          "100% privat"
+        ]
+      }
     },
     {
       "id": "xifreu",
@@ -94,7 +158,17 @@
         { "text": "🔒 Offline", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/Xifreu_en_local/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p>Una eina de <strong>xifratge</strong> que posa la teva privacitat primer.</p><h3>Algorisme AES-256</h3><p>Utilitza l'algorisme AES-256, considerat un dels més segurs disponibles. És el mateix que fan servir governs i institucions financeres per protegir informació sensible.</p><h3>Com funciona?</h3><ol><li>Selecciona el fitxer que vols xifrar</li><li>Introdueix una contrasenya segura</li><li>Descarrega el fitxer xifrat</li></ol><p>Per desxifrar, simplement repeteix el procés amb el fitxer xifrat i la mateixa contrasenya.</p><h3>Seguretat real</h3><p>A diferència d'altres eines online, aquí tot passa al teu navegador. El fitxer mai surt del teu dispositiu, la contrasenya mai s'envia enlloc. Funciona fins i tot sense connexió a internet.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Xifratge AES-256",
+          "Funciona offline",
+          "Cap dada al servidor",
+          "Interfície senzilla"
+        ]
+      }
     },
     {
       "id": "marcador",
@@ -107,7 +181,17 @@
         { "text": "🔒 Offline", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/Zona-Partides/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p>Un <strong>marcador universal</strong> per a qualsevol joc de taula.</p><h3>Per què el vaig crear?</h3><p>Estava cansat de buscar papers i bolígrafs cada cop que jugàvem a jocs de taula. Aquesta aplicació substitueix el típic full de puntuacions.</p><h3>Funcionalitats</h3><ul><li>Afegeix tants jugadors com vulguis</li><li>Suma i resta punts fàcilment</li><li>Historial de partides</li><li>Funciona sense internet</li></ul><h3>Emmagatzematge local</h3><p>Les dades es guarden al teu dispositiu. Pots tancar l'aplicació i les partides continuaran allà quan tornis.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Jugadors il·limitats",
+          "Historial de partides",
+          "Funciona offline",
+          "Dades locals"
+        ]
+      }
     },
     {
       "id": "marca-aigues",
@@ -120,7 +204,17 @@
         { "text": "🔒 100% Privat", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/Zona-MarcaAigues/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p>Protegeix els teus documents amb <strong>marques d'aigua</strong> de forma segura.</p><h3>Casos d'ús</h3><p>Quan has d'enviar còpies de documents sensibles, és bona idea afegir una marca d'aigua que indiqui per a què serveix aquella còpia. Per exemple:</p><ul><li><strong>DNI/NIF</strong> - \"Còpia per a [nom empresa] - [data]\"</li><li><strong>Diplomes</strong> - \"Còpia no vàlida per a ús oficial\"</li><li><strong>Factures</strong> - \"Document per a comptabilitat\"</li></ul><h3>Privacitat garantida</h3><p>Els teus documents mai surten del teu dispositiu. Tot el processament es fa localment al navegador. No hi ha servidor que vegi els teus DNIs o documents personals.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Text personalitzable",
+          "Posició ajustable",
+          "Opacitat configurable",
+          "100% privat"
+        ]
+      }
     },
     {
       "id": "enfillals",
@@ -133,7 +227,17 @@
         { "text": "Utilitat", "tipus": "normal" }
       ],
       "url": "https://vibracat.github.io/genera-240/",
-      "destacat": false
+      "destacat": false,
+      "detall": {
+        "descripcioAmpliada": "<p>Una eina senzilla per crear <strong>enfilalls de Twitter</strong> (threads) sense maldecaps.</p><h3>Com funciona?</h3><ol><li>Escriu o enganxa el teu text</li><li>L'eina el divideix automàticament en trossos de 240 caràcters</li><li>Copia cada tros i publica'l a Twitter</li></ol><h3>Intel·ligent</h3><p>No talla les paraules pel mig. Busca el millor punt per dividir el text (espais, punts, comes) per mantenir la llegibilitat.</p><p>Ideal per a fils llargs on vols explicar alguna cosa sense haver de comptar caràcters manualment.</p>",
+        "imatges": [],
+        "caracteristiques": [
+          "Divisió automàtica",
+          "Respecta les paraules",
+          "Previsualització",
+          "Còpia fàcil"
+        ]
+      }
     }
   ]
 }

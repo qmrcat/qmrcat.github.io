@@ -9,26 +9,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="styles.css">
     <meta name="description" content="Explora els meus projectes de codi obert i gratuïts, creats amb amor a Catalunya. Des de eines útils fins a jocs divertits, tots dissenyats per a la comunitat catalana.">
-
+    <style>
+ 
+    </style>
 </head>
 <body>
     <div class="bg-pattern"></div>
     <div class="noise"></div>
     
     <div class="container">
-        <header>
-            <!-- <span class="wave-emoji">👋</span> -->
-            <div class="logo-text"><span class="wave-emoji">👋</span> QMR<span>CAT</span></div>
-            <h1 class="header-title" id="header-title"></h1>
-            <p class="header-subtitle" id="header-subtitle"></p>
-        </header>
+        <!-- Vista llista de projectes -->
+        <div id="vista-llista">
+            <header>
+                <!-- <span class="wave-emoji">👋</span> -->
+                <div class="logo-text"><span class="wave-emoji">👋</span> QMR<span>CAT</span></div>
+                <h1 class="header-title" id="header-title"></h1>
+                <p class="header-subtitle" id="header-subtitle"></p>
+            </header>
 
-        <main class="projects-grid" id="projects-grid">
-            <div class="loading">
-                <div class="loading-spinner"></div>
-                <p>Carregant projectes...</p>
+            <main class="projects-grid" id="projects-grid">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Carregant projectes...</p>
+                </div>
+            </main>
+        </div>
+
+        <!-- Vista detall del projecte -->
+        <div id="vista-detall">
+            <div class="detail-header">
+                <button class="back-button" onclick="tornarLlista()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18"/>
+                    </svg>
+                    Tornar als projectes
+                </button>
             </div>
-        </main>
+
+            <div class="detail-hero" id="detail-hero">
+                <!-- Contingut dinàmic -->
+            </div>
+
+            <div class="detail-content">
+                <div class="detail-main" id="detail-main">
+                    <!-- Contingut dinàmic -->
+                </div>
+                <aside class="detail-sidebar" id="detail-sidebar">
+                    <!-- Contingut dinàmic -->
+                </aside>
+            </div>
+        </div>
 
         <footer>
             <p class="footer-text">
@@ -45,6 +75,8 @@
     </div>
 
     <script>
+        let dadesGlobals = null;
+
         const arrowSvg = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
         </svg>`;
@@ -65,7 +97,7 @@
                 <div>
                     <span class="featured-badge">⭐ Destacat</span>
                     <span class="project-icon">${projecte.icona}</span>
-                    <h2 class="project-title">${projecte.titol}</h2>
+                    <h2 class="project-title" onclick="mostrarDetall('${projecte.id}')">${projecte.titol}</h2>
                     <p class="project-description">${projecte.descripcio}</p>
                     <div class="project-tags"></div>
                     <a href="${projecte.url}" class="project-link" target="_blank" rel="noopener">
@@ -91,7 +123,7 @@
 
             article.innerHTML = `
                 <span class="project-icon">${projecte.icona}</span>
-                <h2 class="project-title">${projecte.titol}</h2>
+                <h2 class="project-title" onclick="mostrarDetall('${projecte.id}')">${projecte.titol}</h2>
                 <p class="project-description">${projecte.descripcio}</p>
                 <div class="project-tags"></div>
                 <a href="${projecte.url}" class="project-link" target="_blank" rel="noopener">
@@ -127,6 +159,113 @@
             cards.forEach(card => observer.observe(card));
         }
 
+        function mostrarDetall(projecteId) {
+            const projecte = dadesGlobals.projectes.find(p => p.id === projecteId);
+            if (!projecte) return;
+
+            // Actualitzar URL sense recarregar
+            history.pushState({ projecteId }, '', `#${projecteId}`);
+
+            // Amagar llista, mostrar detall
+            document.getElementById('vista-llista').classList.add('hidden');
+            const vistaDetall = document.getElementById('vista-detall');
+            
+            // Renderitzar hero
+            const hero = document.getElementById('detail-hero');
+            hero.innerHTML = `
+                <span class="detail-icon">${projecte.icona}</span>
+                <h1 class="detail-title">${projecte.titol}</h1>
+                <p class="detail-short-desc">${projecte.descripcio}</p>
+                <div class="project-tags">
+                    ${projecte.etiquetes.map(e => `<span class="tag ${e.tipus}">${e.text}</span>`).join('')}
+                </div>
+                <div class="detail-actions">
+                    <a href="${projecte.url}" class="detail-btn detail-btn-primary" target="_blank" rel="noopener">
+                        Ves al projecte
+                        ${arrowSvg}
+                    </a>
+                </div>
+            `;
+
+            // Renderitzar contingut principal
+            const main = document.getElementById('detail-main');
+            let mainHtml = '';
+            
+            if (projecte.detall && projecte.detall.descripcioAmpliada) {
+                mainHtml += projecte.detall.descripcioAmpliada;
+            }
+            
+            if (projecte.detall && projecte.detall.imatges && projecte.detall.imatges.length > 0) {
+                mainHtml += '<div class="detail-images">';
+                projecte.detall.imatges.forEach(img => {
+                    mainHtml += `
+                        <img src="${img.url}" alt="${img.alt}" class="detail-image" onerror="this.style.display='none'">
+                        ${img.alt ? `<p class="detail-image-caption">${img.alt}</p>` : ''}
+                    `;
+                });
+                mainHtml += '</div>';
+            }
+            
+            main.innerHTML = mainHtml || '<p>Més informació properament.</p>';
+
+            // Renderitzar sidebar
+            const sidebar = document.getElementById('detail-sidebar');
+            let sidebarHtml = '';
+            
+            if (projecte.detall && projecte.detall.caracteristiques && projecte.detall.caracteristiques.length > 0) {
+                sidebarHtml += `
+                    <div class="sidebar-section">
+                        <h3 class="sidebar-title">Característiques</h3>
+                        <ul class="features-list">
+                            ${projecte.detall.caracteristiques.map(c => `<li>${c}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            sidebarHtml += `
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Etiquetes</h3>
+                    <div class="project-tags">
+                        ${projecte.etiquetes.map(e => `<span class="tag ${e.tipus}">${e.text}</span>`).join('')}
+                    </div>
+                </div>
+            `;
+            
+            sidebar.innerHTML = sidebarHtml;
+
+            // Mostrar vista detall
+            setTimeout(() => {
+                vistaDetall.classList.add('visible');
+            }, 50);
+
+            // Scroll a dalt
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function tornarLlista() {
+            history.pushState({}, '', window.location.pathname);
+            
+            const vistaDetall = document.getElementById('vista-detall');
+            vistaDetall.classList.remove('visible');
+            
+            setTimeout(() => {
+                document.getElementById('vista-llista').classList.remove('hidden');
+            }, 300);
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Gestionar navegació amb botons del navegador
+        window.addEventListener('popstate', (event) => {
+            const hash = window.location.hash.slice(1);
+            if (hash && dadesGlobals) {
+                mostrarDetall(hash);
+            } else {
+                tornarLlista();
+            }
+        });
+
         async function carregarProjectes() {
             try {
                 const response = await fetch('projectes.json');
@@ -136,6 +275,7 @@
                 }
 
                 const dades = await response.json();
+                dadesGlobals = dades;
 
                 // Actualitzar capçalera
                 const titolElement = document.getElementById('header-title');
@@ -175,6 +315,12 @@
 
                 // Activar animacions
                 animarTarjetes();
+
+                // Comprovar si hi ha hash a la URL
+                const hash = window.location.hash.slice(1);
+                if (hash) {
+                    mostrarDetall(hash);
+                }
 
             } catch (error) {
                 console.error('Error carregant projectes:', error);
