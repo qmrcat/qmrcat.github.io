@@ -16,7 +16,7 @@
         { "text": "💚 Gratuït", "tipus": "free" }
       ],
       "url": "https://github.com/qmrcat/VeuEnMoviment",
-      "destacat": true,
+      "destacat": false,
       "iconaGran": "🗣️🌍"
     },
     {
@@ -30,7 +30,7 @@
         { "text": "🔒 Offline", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/Zona-Botifarra/",
-      "destacat": false
+      "destacat": true
     },
     {
       "id": "sudoku",
