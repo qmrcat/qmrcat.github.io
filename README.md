@@ -54,3 +54,17 @@ Xifratge/desxifratge - Una aplicació web per a xifrar i desxifrar fitxers de fo
 Una aplicació web per portar el control de puntuacions de qualsevol joc de taula. Totalment funcional sense necessitat de connexió a internet, amb emmagatzematge local al dispositiu. Cap informació s'envia al servidor podeu verificar-ho al repositori de l’aplicació: [https://github.com/qmrcat/Zona-Partides](https://github.com/qmrcat/Zona-Partides)
 
 [ves-hi](https://qmrcat.github.io/Zona-Partides/)
+
+## 🃏 Botifarra - Joc de Cartes Català
+
+Un joc de cartes tradicional català implementat com a aplicació web autònoma. Juga contra tres bots intel·ligents que respecten totes les regles del reglament oficial de la Botifarra (versió lliure o occidental).
+
+[ves-hi](https://qmrcat.github.io/Zona-Botifarra/)
+
+## Zona marca aigües
+
+Has d'enviar un document, DNI, NIF, diplomes, factures... amb aquesta aplicació web, pots afegir marques d'aigua als teus documents i imatges de forma 100% privada. Tot el processament es fa localment al teu navegador, sense enviar cap dada cap servidor extern, ho podeu verificar-ho al repositori de l’aplicació: [https://github.com/qmrcat/Zona-MarcaAigues](https://github.com/qmrcat/Zona-MarcaAiguess)
+
+[ves-hi](https://qmrcat.github.io/Zona-MarcaAigues/)
+
+
