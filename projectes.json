@@ -1,0 +1,139 @@
+{
+  "titol": "Aquests són els meus projectes",
+  "subtitol": "Eines web de codi obert, sense publicitat ni galetes. Fetes amb cura.",
+  "github": "https://github.com/qmrcat",
+  "projectes": [
+    {
+      "id": "veu-en-moviment",
+      "titol": "Veu en Moviment",
+      "icona": "🎙️",
+      "descripcio": "Aplicació web que tradueix veu en temps real entre múltiples idiomes. Utilitza les APIs d'OpenAI (Whisper, GPT i TTS) per transcriure, traduir i generar àudio. Perfecte per quan et diguin \"hablame en cristiano\", \"Estamos en Es…\" o \"como\".",
+      "etiquetes": [
+        { "text": "OpenAI API", "tipus": "normal" },
+        { "text": "Whisper", "tipus": "normal" },
+        { "text": "TTS", "tipus": "normal" },
+        { "text": "🔒 Processament local", "tipus": "privacy" },
+        { "text": "💚 Gratuït", "tipus": "free" }
+      ],
+      "url": "https://github.com/qmrcat/VeuEnMoviment",
+      "destacat": true,
+      "iconaGran": "🗣️🌍"
+    },
+    {
+      "id": "botifarra",
+      "titol": "Botifarra",
+      "icona": "🃏",
+      "descripcio": "Joc de cartes tradicional català implementat com a aplicació web. Juga contra tres bots intel·ligents que respecten totes les regles del reglament oficial.",
+      "etiquetes": [
+        { "text": "Joc", "tipus": "normal" },
+        { "text": "Català", "tipus": "normal" },
+        { "text": "🔒 Offline", "tipus": "privacy" }
+      ],
+      "url": "https://qmrcat.github.io/Zona-Botifarra/",
+      "destacat": false
+    },
+    {
+      "id": "sudoku",
+      "titol": "Fes un Sudoku!",
+      "icona": "🔢",
+      "descripcio": "Juga a resoldre sudokus sense publicitat, ni galetes, ni les rucades que ens volen colar sempre. Codi obert, fes-ne el que vulguis.",
+      "etiquetes": [
+        { "text": "Joc", "tipus": "normal" },
+        { "text": "🔒 Sense rastreig", "tipus": "privacy" },
+        { "text": "💚 Gratuït", "tipus": "free" }
+      ],
+      "url": "https://vibracat.github.io/sudo/",
+      "destacat": false
+    },
+    {
+      "id": "bombolles",
+      "titol": "Rebenta les Bombolles!",
+      "icona": "🫧",
+      "descripcio": "Estàs estressat? Desestressa't rebentant bombolles. No en deixis cap. Au! Comença.",
+      "etiquetes": [
+        { "text": "Joc", "tipus": "normal" },
+        { "text": "Relax", "tipus": "normal" }
+      ],
+      "url": "https://vibracat.github.io/peta/",
+      "destacat": false
+    },
+    {
+      "id": "zona-js",
+      "titol": "Zona JS",
+      "icona": "⚡",
+      "descripcio": "Entorn de desenvolupament JavaScript lleuger i intuïtiu. JavaScript Vanilla pur, mòduls ES6 i Tailwind CSS. Escriu i experimenta sense distraccions.",
+      "etiquetes": [
+        { "text": "JavaScript", "tipus": "normal" },
+        { "text": "Playground", "tipus": "normal" },
+        { "text": "ES6", "tipus": "normal" }
+      ],
+      "url": "https://qmrcat.github.io/ZonaJS/",
+      "destacat": false
+    },
+    {
+      "id": "zona-json",
+      "titol": "Zona JSON",
+      "icona": "📋",
+      "descripcio": "Eina web per validar, formatar i depurar fitxers JSON amb detecció precisa d'errors. Tot en local, cap informació s'envia al servidor.",
+      "etiquetes": [
+        { "text": "JSON", "tipus": "normal" },
+        { "text": "Validador", "tipus": "normal" },
+        { "text": "🔒 100% Local", "tipus": "privacy" }
+      ],
+      "url": "https://qmrcat.github.io/ZonaJSON/",
+      "destacat": false
+    },
+    {
+      "id": "xifreu",
+      "titol": "Xifreu en Local",
+      "icona": "🔐",
+      "descripcio": "Xifra i desxifra fitxers de forma segura al navegador amb AES-256. Funciona completament offline, cap dada surt del teu dispositiu.",
+      "etiquetes": [
+        { "text": "AES-256", "tipus": "normal" },
+        { "text": "Seguretat", "tipus": "normal" },
+        { "text": "🔒 Offline", "tipus": "privacy" }
+      ],
+      "url": "https://qmrcat.github.io/Xifreu_en_local/",
+      "destacat": false
+    },
+    {
+      "id": "marcador",
+      "titol": "Marcador de Jocs de Taula",
+      "icona": "🎲",
+      "descripcio": "Porta el control de puntuacions de qualsevol joc de taula. Funciona sense internet, amb emmagatzematge local al dispositiu.",
+      "etiquetes": [
+        { "text": "Jocs", "tipus": "normal" },
+        { "text": "Utilitat", "tipus": "normal" },
+        { "text": "🔒 Offline", "tipus": "privacy" }
+      ],
+      "url": "https://qmrcat.github.io/Zona-Partides/",
+      "destacat": false
+    },
+    {
+      "id": "marca-aigues",
+      "titol": "Zona Marca Aigües",
+      "icona": "💧",
+      "descripcio": "Afegeix marques d'aigua als teus documents: DNI, diplomes, factures... Tot el processament es fa localment, 100% privat.",
+      "etiquetes": [
+        { "text": "Imatges", "tipus": "normal" },
+        { "text": "Documents", "tipus": "normal" },
+        { "text": "🔒 100% Privat", "tipus": "privacy" }
+      ],
+      "url": "https://qmrcat.github.io/Zona-MarcaAigues/",
+      "destacat": false
+    },
+    {
+      "id": "enfillals",
+      "titol": "Enfillals",
+      "icona": "🧵",
+      "descripcio": "Fas molts enfilalls a Twitter? Aquesta utilitat t'ajuda a dividir un text en trossos o paràgrafs de 240 caràcters.",
+      "etiquetes": [
+        { "text": "Twitter", "tipus": "normal" },
+        { "text": "Text", "tipus": "normal" },
+        { "text": "Utilitat", "tipus": "normal" }
+      ],
+      "url": "https://vibracat.github.io/genera-240/",
+      "destacat": false
+    }
+  ]
+}
