@@ -253,49 +253,7 @@
       "url": "https://qmrcat.github.io/editor-markdown/",
       "destacat": false,
       "detall": {
-        "descripcioAmpliada": "<h2>✨ Característiques principals</h2>
-
-<h3>📝 Edició avançada</h3>
-<ul>
-    <li>Vista prèvia en temps real - Veu els canvis instantàniament mentre escrius</li>
-    <li>Barra d'eines completa amb tooltips intel·ligents i menús desplegables</li>
-    <li>Dreceres de teclat per a funcions comunes (Ctrl+B, Ctrl+I, Ctrl+S, etc.)</li>
-    <li>Editor amb highlight i font monospai per a millor llegibilitat</li>
-    <li>Inserció d'imatges via URL amb descripció alternativa</li>
-    <li>Sistema d'emojis avançat amb shortcodes (:warning: → ⚠️)</li>
-</ul>
-
-<h3>🎨 Interfície moderna</h3>
-<ul>
-    <li>Tema fosc/clar amb commutació automàtica segons preferències del sistema</li>
-    <li>Disseny responsiu adaptatiu per escriptori, tauleta i mòbil</li>
-    <li>Tooltips intel·ligents que s'ajusten automàticament als marges</li>
-    <li>Modals elegants amb opacitat ajustable</li>
-    <li>Transicions suaves i animacions professionals</li>
-    <li>Menús desplegables organitzats per categories</li>
-</ul>
-
-<h3>💾 Gestió de fitxers</h3>
-<ul>
-    <li>Sistema dual d'emmagatzematge:
-        <ul>
-            <li>Desar/obrir fitxers al disc dur (.md, .txt)</li>
-            <li>Emmagatzematge local al navegador amb gestió visual</li>
-        </ul>
-    </li>
-    <li>Drag & Drop intel·ligent - Arrossega fitxers directament a l'editor</li>
-    <li>Documents d'exemple opcionals per començar ràpidament</li>
-    <li>Gestió completa de documents locals (carregar, eliminar, organitzar)</li>
-</ul>
-
-<h3>📱 Experiència responsiva</h3>
-<ul>
-    <li>Layout adaptatiu que canvia segons la mida de pantalla</li>
-    <li>Vista dividida (editor + vista prèvia) en pantalles grans</li>
-    <li>Vista apilada optimitzada per dispositius mòbils</li>
-    <li>Botons tàctils optimitzats per a pantalles tàctils</li>
-    <li>Menús scrollables que s'adapten a l'espai disponible</li>
-</ul>",
+        "descripcioAmpliada": "<h2>✨ Característiques principals</h2><h3>📝 Edició avançada</h3><ul><li>Vista prèvia en temps real - Veu els canvis instantàniament mentre escrius</li><li>Barra d'eines completa amb tooltips intel·ligents i menús desplegables</li><li>Dreceres de teclat per a funcions comunes (Ctrl+B, Ctrl+I, Ctrl+S, etc.)</li><li>Editor amb highlight i font monospai per a millor llegibilitat</li><li>Inserció d'imatges via URL amb descripció alternativa</li><li>Sistema d'emojis avançat amb shortcodes (:warning: → ⚠️)</li></ul><h3>🎨 Interfície moderna</h3><ul><li>Tema fosc/clar amb commutació automàtica segons preferències del sistema</li><li>Disseny responsiu adaptatiu per escriptori, tauleta i mòbil</li><li>Tooltips intel·ligents que s'ajusten automàticament als marges</li><li>Modals elegants amb opacitat ajustable</li><li>Transicions suaves i animacions professionals</li><li>Menús desplegables organitzats per categories</li></ul><h3>💾 Gestió de fitxers</h3><ul><li>Sistema dual d'emmagatzematge:<ul><li>Desar/obrir fitxers al disc dur (.md, .txt)</li><li>Emmagatzematge local al navegador amb gestió visual</li></ul></li> <li>Drag & Drop intel·ligent - Arrossega fitxers directament a l'editor</li><li>Documents d'exemple opcionals per començar ràpidament</li> <li>Gestió completa de documents locals (carregar, eliminar, organitzar)</li></ul><h3>📱 Experiència responsiva</h3><ul><li>Layout adaptatiu que canvia segons la mida de pantalla</li><li>Vista dividida (editor + vista prèvia) en pantalles grans</li><li>Vista apilada optimitzada per dispositius mòbils</li><li>Botons tàctils optimitzats per a pantalles tàctils</li><li>Menús scrollables que s'adapten a l'espai disponible</li></ul>",
         "imatges": [],
         "caracteristiques": [
           "Edició avançada",
