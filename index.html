@@ -234,13 +234,13 @@
             
             sidebar.innerHTML = sidebarHtml;
 
+            // Scroll a dalt immediatament, abans de mostrar la vista
+            window.scrollTo({ top: 0, behavior: 'instant' });
+
             // Mostrar vista detall
             setTimeout(() => {
                 vistaDetall.classList.add('visible');
             }, 50);
-
-            // Scroll a dalt
-            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function tornarLlista() {
