@@ -139,7 +139,7 @@
         { "text": "🔒 Offline", "tipus": "privacy" }
       ],
       "url": "https://qmrcat.github.io/Zona-Botifarra/",
-      "destacat": true,
+      "destacat": false,
       "detall": {
         "descripcioAmpliada": "<p>La <strong>Botifarra</strong> és un joc de cartes tradicional català que es juga amb la baralla espanyola de 48 cartes. Aquesta aplicació web et permet jugar contra tres bots intel·ligents.</p><h3>Característiques del joc</h3><p>Els bots segueixen les regles del reglament oficial de la Botifarra en la seva versió lliure (o occidental). Inclou:</p><ul><li>Sistema de contrar i recontrar</li><li>Puntuació automàtica</li><li>Intel·ligència artificial que pren decisions estratègiques</li></ul><h3>Offline</h3><p>Un cop carregada, l'aplicació funciona completament sense connexió a internet. Perfecte per a viatges o moments sense cobertura.</p>",
         "imatges": [],
