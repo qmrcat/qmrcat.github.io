@@ -30,7 +30,7 @@
 "Paviment amb font a la casella central; uneix caselles per fer passejos",
 "Connecta desnivells; cada tram puja un nivell de terreny (0,42 unitats)",
 "De 2 a 16 caselles entre ribes, amb pendent si les alçades difereixen; el model amb arcades de pedra és orientable",
-"Col·loca els dissenys propis fets amb l'editor, fins a 128 per vila",
+"Col·loca els dissenys propis fets amb l'editor, fins a 128 per vila", 
 "Treu el pis exacte que assenyales: si en queden a sobre, hi apareixen arcades i pilastres automàtiques.",
           "Codi obert"
         ]
