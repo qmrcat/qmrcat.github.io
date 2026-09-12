@@ -11,6 +11,39 @@
       "etiquetes": [
         { "text": "Joc", "tipus": "construcció" },
         { "text": "Vila", "tipus": "mediterranea" },
+        { "text": "🔒 Processament local", "tipus": "privacy" },
+        { "text": "💚 Gratuït", "tipus": "free" }
+      ],
+      "url": "https://github.com/qmrcat/VeuEnMoviment",
+      "destacat": true,
+      "iconaGran": "🏚️🏕️🏝️⛱️",
+      "detall": {
+        "descripcioAmpliada": "<p>Un joc creatiu de <strong>construcció lliure en 3D</strong> per al navegador, inspirat en Townscaper i en l'arquitectura de la <strong>Costa Brava</strong> i la <strong>Costa Daurada</strong>. Cliques sobre una quadrícula (33×33, 49×49 o 65×65 caselles) i el poble creix: cases de calç i terracota, platges, carrers, places amb font, arbres i mar. No hi ha objectius, economia ni personatges — només construir al teu aire.</p>",
+
+        "caracteristiques": [
+          "Mou la càmera sense construir ni esborrar res",
+          "Terra ferma, pendents, platja, pradera, roca i carrers empedrats, de terra o asfaltats. ",
+          "ins a 9 pisos, tres tipus de teulada orientables, colors per planta, cases amb pati i negocis a la planta baixa o als pisos.",
+          "Mercat, església, ajuntament, hospital, escola, hotels, far, parc infantil… més de vint equipaments amb rètol editable",
+          "Cinc peces de muralla combinables i el castell medieval català amb senyera",
+          "Onze espècies mediterrànies, del pi i el margalló a l'olivera, la parra o el xiprer",
+"Paviment amb font a la casella central; uneix caselles per fer passejos",
+"Connecta desnivells; cada tram puja un nivell de terreny (0,42 unitats)",
+"De 2 a 16 caselles entre ribes, amb pendent si les alçades difereixen; el model amb arcades de pedra és orientable",
+"Col·loca els dissenys propis fets amb l'editor, fins a 128 per vila"
+"Treu el pis exacte que assenyales: si en queden a sobre, hi apareixen arcades i pilastres automàtiques.",
+          "Codi obert"
+        ]
+      }
+    },
+    {
+      "id": "veu-en-moviment",
+      "titol": "Vila Mediterrània",
+      "icona": "🏘️",
+      "descripcio": "Joc de construcció lliure, el joc és minimalista per passar el temps relaxat, no té objectius, ni puntuació, ni reptes ni condicions de victòria. Construeix la teva vila catalana ambientada en una població costanera.",
+      "etiquetes": [
+        { "text": "Joc", "tipus": "construcció" },
+        { "text": "Vila", "tipus": "mediterranea" },
         { "text": "TTS", "tipus": "normal" },
         { "text": "🔒 Processament local", "tipus": "privacy" },
         { "text": "💚 Gratuït", "tipus": "free" }
